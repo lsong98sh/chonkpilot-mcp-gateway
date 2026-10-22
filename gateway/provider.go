@@ -25,8 +25,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/chonkpilot/chonkpilot-mcp-gateway/sandbox"
-	"github.com/chonkpilot/chonkpilot-mcp-gateway/winproc"
+	"github.com/lsong98sh/chonkpilot-mcp-gateway/sandbox"
+	"github.com/lsong98sh/chonkpilot-mcp-gateway/winproc"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 

@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chonkpilot/chonkpilot-mcp-gateway/sandbox"
+	"github.com/lsong98sh/chonkpilot-mcp-gateway/sandbox"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 
