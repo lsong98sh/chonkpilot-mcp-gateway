@@ -1,5 +1,5 @@
 // gateway 内核 module（2026-10-21）：**零本仓依赖**（生产包 = gateway/ + sandbox/ + winproc/；
-// 同包测试经 internal/testbus 代替 mq，不再引用 core）。
+// 同包测试经内存直连 Transport（transport_test.go）驱动，不引用 core、不模拟 MQ）。
 // 适配外壳（mqadapter / facadeapi / internal/facade）见 github.com/chonkpilot/chonkpilot-gwadapter。
 module github.com/lsong98sh/chonkpilot-mcp-gateway
 
